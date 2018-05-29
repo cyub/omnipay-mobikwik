@@ -7,7 +7,7 @@ use Omnipay\Common\Message\AbstractRequest as BaseAbstractRequest;
 Abstract class AbstractRequest extends BaseAbstractRequest
 {
     protected $productionEndpoint = 'https://walletapi.mobikwik.com';
-    protected $testEndpoint = 'https://test2.mobikwik.com';
+    protected $testEndpoint = 'https://test.mobikwik.com';
 
     protected $methods = [
         'Purchase' => '/wallet',
